@@ -485,9 +485,9 @@ process.on('SIGTERM', () => {
 });
 
 const server = app.listen(PORT, () => {
-  console.log(`🚀 Enhanced backend running at http://localhost:${PORT}`);
-  console.log(`📊 Health check available at http://localhost:${PORT}/health`);
-  console.log(`🔧 Integration test at http://localhost:${PORT}/api/test-integration`);
-  console.log(`⚙️  Field mappings at http://localhost:${PORT}/api/field-mappings`);
-  console.log(`🎯 Current field mappings:`, FIELD_MAPPINGS.candidate);
+  console.log(`Enhanced backend running at http://localhost:${PORT}`);
+  console.log(`Health check available at http://localhost:${PORT}/health`);
+  console.log(`Integration test at http://localhost:${PORT}/api/test-integration`);
+  console.log(`⚙Field mappings at http://localhost:${PORT}/api/field-mappings`);
+  console.log(`Current field mappings:`, FIELD_MAPPINGS.candidate);
 });
